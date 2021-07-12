@@ -19,22 +19,6 @@
         <configuration>
           <source>1.7</source>
           <target>1.7</target>
-          
-          <jsEngine>CLOSURE</jsEngine>
-
-          <jsFinalFile>${compiled.name}</jsFinalFile>
-          <jsSourceDir>javascript</jsSourceDir>
-
-          <jsSourceIncludes>
-            <jsSourceInclude>**</jsSourceInclude>
-          </jsSourceIncludes>
-
-          <jsSourceExcludes>
-            <jsSourceExclude>**/*.min.js</jsSourceExclude>
-          </jsSourceExcludes>
-
-          <webappSourceDir>${basedir}/WebContent</webappSourceDir>
-          <webappTargetDir>${release.dir}</webappTargetDir>
         </configuration>
       </plugin>
     </plugins>
